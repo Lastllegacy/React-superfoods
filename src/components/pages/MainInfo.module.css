@@ -1,0 +1,26 @@
+.title {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 2.5rem 0;
+   margin: -3rem 0;
+}
+
+.title h2 {
+   font-size: 3.5rem;
+   font-weight: bold;
+}
+
+.title p {
+   margin: 1rem 0;
+   font-size: 1.5rem;
+   max-width: 50rem;
+   text-align: justify;
+}
+
+.subtitle {
+   font-size: 2.5rem;
+   margin: 2rem;
+   color: white;
+}
+
