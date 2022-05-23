@@ -1,0 +1,12 @@
+.myBtn {
+   padding: 1rem ;
+   margin: 1rem 0.5rem;
+   border: 1px solid burlywood;
+   background-color: teal;
+   color: black;
+   
+}
+
+.myBtn:hover, .myBtn:active {
+   background-color: rgb(1, 176, 176);
+}

@@ -1,4 +1,4 @@
-.with-line{
+.withLine{
    display: block;
    font-size: 1.5rem;
    font-weight: bold;
@@ -6,10 +6,9 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   max-width: 96vw;
 }
 
-.with-line:after {
+.withLine:after {
    content: "";
    display: inline-block;
    border-top: 3px solid #000;
@@ -17,7 +16,7 @@
    margin: 0 0.2rem;
    width: 95vw;
 }
-.with-line:before {
+.withLine:before {
    content: "";
    display: inline-block;
    border-top: 3px solid #000;
@@ -38,5 +37,5 @@
 }
 
 .wrapper {
-   margin: 0.7rem 0;
+   margin: 0.7rem 1.5rem;
 }

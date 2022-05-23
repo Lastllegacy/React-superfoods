@@ -16,7 +16,7 @@ function MainNavigation() {
               <Link to="/list"> List </Link>
             </li>
             <li>
-              <Link to='/contact'> Contact </Link>
+              <Link to='/addNewFood'> Add New Food </Link>
             </li>
           </ul>
         </nav>

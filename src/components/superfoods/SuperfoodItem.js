@@ -1,7 +1,7 @@
-import classes from "./NewSuperfood.module.css";
+import classes from "./SuperfoodItem.module.css";
 
 import { useState } from "react";
-function NewSuperfood(props) {
+function SuperfoodItem(props) {
   const [over, setOver] = useState(true);
   
 
@@ -14,17 +14,15 @@ function NewSuperfood(props) {
     >
       {over ? (
         <img
-          src={props.image}
-          alt={props.alt}
-          width={props.width}
-          height={props.height}
+          src={props.item.image}
+          alt={props.item.alt}
         />
       ) : (
-        <p> {props.alt} </p>
+        <p> {props.item.alt} </p>
       )}
     </div>
     
   );
 }
 
-export default NewSuperfood;
+export default SuperfoodItem;
