@@ -1,12 +1,26 @@
-.modal {
-   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-   border-radius: 6px;
-   background-color: white;
-   padding: 1rem;
-   text-align: center;
-   width: 30rem;
-   z-index: 10;
-   position: fixed;
-   top: 20vh;
-   left: calc(50% - 15rem);
- }
+
+.popup {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.popup__content {
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+

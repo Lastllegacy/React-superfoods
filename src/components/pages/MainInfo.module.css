@@ -24,3 +24,9 @@
    color: white;
 }
 
+.mainDescription {
+   margin: 0 10rem;
+   justify-content: space-around;
+   display: flex;
+}
+

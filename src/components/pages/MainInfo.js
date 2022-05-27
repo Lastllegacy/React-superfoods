@@ -1,5 +1,4 @@
 import ColumnItem from "../layout/ColumnItem";
-import MainDescription from "../layout/MainDescription";
 import classes from "./MainInfo.module.css";
 
 function MainInfo() {
@@ -14,8 +13,7 @@ function MainInfo() {
           What superpowers you will gain?
         </div>
       </div>
-
-      <MainDescription>
+      <div className={classes.mainDescription}>
         <ColumnItem
           title="Superlong-life"
           content="Antioxidants help your organism to fight with more strength against air pollution, toxins, bad stuff coming from food and also lowers the rate of aging, meaning you have more chances to see flying cars :) "
@@ -28,7 +26,7 @@ function MainInfo() {
           title="Supereasy-life"
           content="You might think that for their high nutrition value they are harder to get or probably their taste leaves a lot to be desired, but you would be very suprised its not at all"
         />
-      </MainDescription>
+      </div>
     </div>
   );
 }

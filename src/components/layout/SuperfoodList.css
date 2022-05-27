@@ -1,0 +1,14 @@
+.superfood-enter {
+   transform: scale(0);
+ }
+ .superfood-enter-active {
+   transform: scale(1);
+   transition: all 200ms ease-in;
+ }
+ .superfood-exit {
+   transition: all 200ms ease-in;
+   transform: scale(0);
+ }
+ .superfood-exit-active {
+   transition: all 500ms ease-out;
+ }

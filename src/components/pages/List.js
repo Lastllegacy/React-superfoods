@@ -4,7 +4,7 @@ import { useState } from "react";
 import DropdownItems from "../layout/DropdownItems";
 
 function List() {
-  const [itemsNuts, setNewItemsNuts] = useState([
+  const [foods, setFoods] = useState([
     {
       image:
         "https://cdn.theatlantic.com/thumbor/nWAG9hiVYPbZNJlqlzvbbYiQIQE=/426x82:5328x3758/1200x900/media/img/mt/2015/08/shutterstock_182338004/original.jpg",
@@ -23,13 +23,17 @@ function List() {
     },
   ]);
 
-  
 
   return (
     <div className={classes.list}>
-      <DropdownItems title="Nuts" items={itemsNuts} >
+      <DropdownItems title="Superfoods" items={foods} >
+      </DropdownItems>
+      <DropdownItems title="Superfoods" items={foods} >
+      </DropdownItems>
+      <DropdownItems title="Superfoods" items={foods} >
       </DropdownItems>
     </div>
+    
   );
 }
 
