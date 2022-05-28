@@ -2,19 +2,17 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import SuperfoodItem from "../superfoods/SuperfoodItem";
 import "./SuperfoodList.css";
 
-function SuperfoodList({ items, setModal, isOpen }) {
-   
-  function modalHandler() {
-    setModal(true);
-  }
+function SuperfoodList({ items, isOpen }) {
+
 
   return (
-    <TransitionGroup component={null}>
+    <TransitionGroup className="flex">
       {isOpen && items.map((item) => (
         <CSSTransition key={item.id} timeout={500} classNames="superfood">
-          <SuperfoodItem item={item} onModal={modalHandler} />
+          <SuperfoodItem item={item} />
         </CSSTransition>
       ))}
+
     </TransitionGroup>
   );
 }

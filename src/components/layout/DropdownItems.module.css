@@ -30,12 +30,6 @@
    padding: 0.15rem;
 }
 
-.content {
-   display: flex;
-   flex-wrap: wrap;
-   margin: 0 1rem;
-}
-
 .wrapper {
-   margin: 0.7rem 1.5rem;
+   margin: 1vw 0.35vw;
 }

@@ -3,12 +3,9 @@ import { useState } from "react";
 import classes from "./DropdownItems.module.css";
 import SuperfoodList from "./SuperfoodList";
 
-import Modal from "./UI/Modal/Modal";
-
 function DropdownItems(props) {
   const [isOpen, setIsOpen] = useState(false);
 
-  const [modal, setModal] = useState(false);
 
   function toggleHandler() {
     if (isOpen) {
@@ -24,9 +21,10 @@ function DropdownItems(props) {
         <span className={classes.dropHeader}>{props.title}</span>
       </div>
       <div className={classes.content}>
-        <SuperfoodList items={props.items} setModal={setModal} isOpen={isOpen} />
+        <SuperfoodList items={props.items} isOpen={isOpen} >
+        </SuperfoodList>
       </div>
-         <Modal active={modal} setActive={setModal} />
+         
     </div>
   );
 }
