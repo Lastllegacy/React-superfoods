@@ -1,1 +1,3 @@
-This is a project that im working on. Its about superfoods that im implementing in my life. The technologies that im using here are react and git.
+This is a project that im working on. Its about superfoods that im implementing in my life. Based on react.
+
+Still developing at the moment!
